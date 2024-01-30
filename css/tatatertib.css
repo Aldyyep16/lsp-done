@@ -1,0 +1,141 @@
+/* Google Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Bakbak+One&family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Artifika&family=Bakbak+One&family=Poppins:wght@300&display=swap');
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  scroll-behavior: smooth;
+}
+
+
+.container{
+	background-image: url(../Asset/pexels-henry-_-co-1939485.png);
+	height: 110vh;
+	background-size: contain;
+  display: flex;
+  overflow-y: hidden;
+  
+}
+.nav {
+   position: fixed;
+  top: 0;
+  left: 0; 
+  width: 100%;
+  padding: 15px 200px;
+  background: #157885;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+.nav,
+.nav .nav-links {
+  display: flex;
+  align-items: center;
+  
+}
+.nama p{
+  color: #fff;
+}
+
+.nav {
+  justify-content: space-between;
+}
+a {
+  color: #fff;
+  text-decoration: none;
+  font-family: poppins;
+}
+
+
+
+.nav .logo {
+  font-size: 22px;
+  font-weight: 500;
+}
+.nav .nav-links {
+  column-gap: 40px;
+  list-style: none;
+}
+
+.nav .nav-links a:hover {
+  transition: all 0.4s linear;
+   color: #80b0b6;
+   background-color: aliceblue;
+}
+
+
+.box{
+  height: 30px;
+  display: flex;
+  cursor: pointer;
+  padding: 10px 20px;
+  background: var(--color-white);
+  border-radius: 30px;
+  align-items: center;
+  box-shadow:0 10px 25px ;
+}
+.box:hover input{
+  width: 100px;
+}
+.box input{
+  width: 0;
+  outline: none;
+  border: none;
+  font-weight: 500;
+  transition: 0.8s;
+  background: transparent;
+}
+
+.box input::placeholder{
+  color: white;
+}
+
+.box a .fas{
+  color: var(--color-black);
+  font-size: 18px;
+}
+
+.nav .navOpenBtn,
+.nav .navCloseBtn {
+  display: none;
+}
+
+.container{
+  display: flex;
+   justify-content: center;
+   
+  
+}
+
+
+.pertanyaan-1{
+  
+  flex-direction: column;
+  text-align: left;
+  top: 18px;
+  margin: 79px 0 0  72px;
+  position: relative;
+  float: left;
+  justify-content: left;
+}
+.pertanyaan-1 h1{
+  font-family: poppins;
+  font-size: 20px; 
+  font-weight: 600;
+  text-align: left;
+
+}
+.pertanyaan-1 p ,li{
+  font-family: poppins;
+  font-size: 15px;
+  margin: 20px 0 0 0;
+  text-align: left;
+  
+
+}
+
+
+

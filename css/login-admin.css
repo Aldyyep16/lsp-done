@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex ;
+    background-image: url(../Asset/Ini-Daftar-Perpustakaan-Terbesar-di-Dunia\ 1.png);
+}
+
+.main-container {
+    margin: 5% 18%;
+    display: flex;
+    width: 150vh;
+    height: 75vh;
+    background-color: #f1f1f1;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+}
+
+.left {
+    flex: 3;
+    background-image: url(../Asset/cover-10-rekomendasi-buku\ 1.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.right {
+    flex: 3;
+}
+
+.container {
+    margin: 18% 12%;
+    width: 50vh;
+    height: auto;
+    text-align: center;
+    border-radius: 50px;
+    color: rgb(49, 40, 40);
+    padding: 20px;
+    
+}
+
+h2 {
+    margin-top: 20px;
+}
+
+.form {
+    margin-top: 10px;
+}
+
+input {
+    width: 100%;
+    height: 40px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    padding: 0 8px;
+    border: none;
+    outline: none;
+}
+
+.button {
+    width: 50px;
+   
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 8px;
+    margin: 8px 0 0 9px;
+
+    cursor: pointer;
+    justify-content: center;
+}
+
+
+.signup {
+    margin-top: 20px;
+    color: rgb(0, 0, 0);
+}
+
+.link {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+.link:hover {
+    color: #F79540;
+}
